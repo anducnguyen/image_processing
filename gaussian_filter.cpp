@@ -28,9 +28,9 @@ int main(int argc, char **argv){
 			double valueCH2 = img1->get(x,y,1);
 			double valueCH3 = img1->get(x,y,2);
 			
-			img2->set(x,y,0,valueCH3);
-			img2->set(x,y,1,valueCH2);
-			img2->set(x,y,2,valueCH1);
+			img2->set(x,y,0,valueCH2);
+			img2->set(x,y,1,valueCH1);
+			img2->set(x,y,2,valueCH3);
 			
 					
 		}
